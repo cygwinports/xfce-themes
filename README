@@ -8,13 +8,13 @@ This is a GTK2 theme with a Xfce4 look.
 
 Runtime requirements:
   cygwin-1.5.25-15
-  glib2-2.16.6-1
-  gtk2-x11-2.12.12-1
+  libglib2.0_0-2.18.3-1
+  libgtk2.0_0-2.14.6-1
 
 Build requirements:
 (besides corresponding devel packages)
   autoconf2.5-2.63-1
-  automake1.10-1.10.1-1
+  automake1.10-1.10.1-2
   binutils-20080624-2
   gawk-3.1.6-1
   gcc-core-3.4.4-3
@@ -22,7 +22,7 @@ Build requirements:
   make-3.81-1
   pkg-config-0.23a-2
   sed-4.1.5-2
-  xfce4-dev-tools-4.5.91-1
+  xfce4-dev-tools-4.5.92-1
 
 Canonical homepage:
   http://www.xfce.org/
@@ -34,15 +34,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gtk2-x11-engines-xfce-2.5.91-1-src.tar.bz2
+  unpack gtk2-x11-engines-xfce-2.5.92-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gtk2-x11-engines-xfce-2.5.91-1.cygport all
+  cygport ./gtk2-x11-engines-xfce-2.5.92-1.cygport all
 
 This will create:
-  /usr/src/gtk2-x11-engines-xfce-2.5.91-1-src.tar.bz2
-  /usr/src/gtk2-x11-engines-xfce-2.5.91-1.tar.bz2
+  /usr/src/gtk2-x11-engines-xfce-2.5.92-1-src.tar.bz2
+  /usr/src/gtk2-x11-engines-xfce-2.5.92-1.tar.bz2
 
 -------------------------------------------
 
@@ -50,12 +50,12 @@ Files included in the binary package:
 
   /usr/lib/gtk-2.0/2.10.0/engines/cygxfce.dll
   /usr/lib/gtk-2.0/2.10.0/engines/libxfce.la
-  /usr/share/doc/gtk2-x11-engines-xfce-2.5.91/AUTHORS
-  /usr/share/doc/gtk2-x11-engines-xfce-2.5.91/COPYING
-  /usr/share/doc/gtk2-x11-engines-xfce-2.5.91/ChangeLog
-  /usr/share/doc/gtk2-x11-engines-xfce-2.5.91/INSTALL
-  /usr/share/doc/gtk2-x11-engines-xfce-2.5.91/NEWS
-  /usr/share/doc/gtk2-x11-engines-xfce-2.5.91/README
+  /usr/share/doc/gtk2-x11-engines-xfce-2.5.92/AUTHORS
+  /usr/share/doc/gtk2-x11-engines-xfce-2.5.92/COPYING
+  /usr/share/doc/gtk2-x11-engines-xfce-2.5.92/ChangeLog
+  /usr/share/doc/gtk2-x11-engines-xfce-2.5.92/INSTALL
+  /usr/share/doc/gtk2-x11-engines-xfce-2.5.92/NEWS
+  /usr/share/doc/gtk2-x11-engines-xfce-2.5.92/README
   /usr/share/themes/Xfce-4.0/README.html
   /usr/share/themes/Xfce-4.0/gtk-2.0/gtkrc
   /usr/share/themes/Xfce-4.2/README.html
@@ -99,8 +99,11 @@ Files included in the binary package:
 
 Port Notes:
 
------ version 2.5.91-1 -----
+----- version 2.5.92-1 -----
 Version bump for Xfce 4.5-beta2.
+
+----- version 2.5.91-1 -----
+Version bump for Xfce 4.5-beta1.
 
 ----- version 2.4.1-1 -----
 Version bump for Xfce 4.4.
