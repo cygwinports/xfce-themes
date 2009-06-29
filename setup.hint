@@ -1,5 +1,5 @@
 category: Gnome
-requires: cygwin libgcc1 libglib2.0_0 libgtk2.0_0
+requires: libgcc1 libglib2.0_0 libgtk2.0_0
 sdesc: "Xfce4-style GTK2 themes"
 ldesc: "Xfce is a lightweight desktop environment for unix-like 
 operating systems. It aims to be fast and lightweight, while still being
