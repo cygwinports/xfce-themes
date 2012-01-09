@@ -1,5 +1,0 @@
-ORIG_PN="gtk-xfce-engine"
-XFCE_VERSION=4.${PV[2]}.${PV[3]}
-inherit xfce4
-
-DESCRIPTION="Xfce GTK+ engine"

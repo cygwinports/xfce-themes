@@ -1,0 +1,8 @@
+ORIG_PN="gtk-xfce-engine"
+inherit xfce4
+
+DESCRIPTION="Xfce GTK+ themes"
+
+PATCH_URI="http://git.xfce.org/xfce/gtk-xfce-engine/patch?id=3c38bea"
+
+CYGCONF_ARGS="--enable-gtk2 --enable-gtk3"
