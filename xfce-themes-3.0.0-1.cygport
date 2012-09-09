@@ -1,6 +1,0 @@
-ORIG_PN="gtk-xfce-engine"
-inherit xfce4
-
-DESCRIPTION="Xfce GTK+ themes"
-
-CYGCONF_ARGS="--enable-gtk2 --enable-gtk3"
