@@ -2,7 +2,7 @@ ORIG_PN="gtk-xfce-engine"
 inherit xfce4
 
 NAME="xfce-themes"
-VERSION=3.0.1
+VERSION=3.2.0
 RELEASE=1
 CATEGORY="Xfce"
 SUMMARY="Xfce4 GTK+ themes"
